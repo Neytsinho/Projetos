@@ -24,7 +24,7 @@ $$\text{Consumo Mensal (kWh)} = \frac{\text{Potência (W)} \times \text{Uso Diá
 
 O custo financeiro aproximado é obtido multiplicando o valor apurado pela tarifa:
 
-$$\text{Custo Mensal (R\$)} = \text{Consumo Mensal (kWh)} \times 0{,}75$$
+$$\text{Custo Mensal (R\$) } = \text{Consumo Mensal (kWh)} \times 0{,}75$$
 
 ---
 
@@ -37,5 +37,16 @@ $$\text{Custo Mensal (R\$)} = \text{Consumo Mensal (kWh)} \times 0{,}75$$
 ### Passo a passo
 
 1. Clone o repositório ou faça o download dos arquivos:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/consumo-energia.git](https://github.com/SEU_USUARIO/consumo-energia.git)
+```bash
+   git clone https://github.com/Neytsinho/Projetos.git
+```
+2. Acesse a pasta do projeto: 
+```bash  
+   cd Projetos/consumo-energia
+```   
+3. Execute o programa:  
+```bash  
+   python app.py
+```
+
+
