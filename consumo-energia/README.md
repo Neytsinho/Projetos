@@ -24,7 +24,7 @@ $$\text{Consumo Mensal (kWh)} = \frac{\text{Potência (W)} \times \text{Uso Diá
 
 O custo financeiro aproximado é obtido multiplicando o valor apurado pela tarifa:
 
-$$\text{Custo Mensal (R\$) } = \text{Consumo Mensal (kWh)} \times 0{,}75$$
+$$\text{Custo Mensal (em reais)} = \text{Consumo Mensal (kWh)} \times 0{,}75$$
 
 ---
 
@@ -48,5 +48,4 @@ $$\text{Custo Mensal (R\$) } = \text{Consumo Mensal (kWh)} \times 0{,}75$$
 ```bash  
    python app.py
 ```
-
 
