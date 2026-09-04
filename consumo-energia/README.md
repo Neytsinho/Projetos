@@ -10,9 +10,9 @@ Projeto desenvolvido como parte do programa de iniciação em tecnologia. A ferr
 ## 🚀 Funcionalidades
 
 - 🔌 Cadastro rápido do aparelho por nome.
-- ⚙️ Cálculo de consumo mensal baseado na potência ($W$) e tempo de uso diário ($h$).
-- 💡 Conversão direta para quilowatts-hora ($kWh$).
-- 💰 Estimativa de custo mensal baseada em tarifa padrão ($R\$\ 0{,}75/kWh$).
+- ⚙️ Cálculo de consumo mensal baseado na potência (W) e tempo de uso diário (h).
+- 💡 Conversão direta para quilowatts-hora (kWh).
+- 💰 Estimativa de custo mensal baseada em tarifa padrão (R$ 0,75/kWh).
 
 ---
 
