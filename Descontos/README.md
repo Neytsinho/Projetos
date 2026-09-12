@@ -24,15 +24,15 @@ O sistema avalia o valor informado na entrada e aplica o percentual de desconto 
 ### Execução
 1. Clone o repositório ou baixe o arquivo `.py`:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+      git clone https://github.com/Neytsinho/Projetos.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd nome-do-repositorio
+   cd Projetos/Descontos
    ```
 3. Execute o script no terminal:
    ```bash
-   python main.py
+   python app.py
    ```
 
 ---
