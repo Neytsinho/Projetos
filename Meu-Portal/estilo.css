@@ -1,0 +1,108 @@
+/* ========================================================
+   ESTILOS GERAIS DO DOCUMENTO (Agenda 13 - CSS)
+   ======================================================== */
+body {
+    font-size: 100%;
+    background-color: #1e1d20;
+    color: white;
+}
+
+/* Titulo principal da pagina */
+h1 {
+    text-align: center;
+    color: rgb(6, 135, 209);
+    font-size: 2.5em;
+    margin: 1.5%;
+}
+
+/* ========================================================
+   ESTRUTURA FLEXBOX PRINCIPAL (3 COLUNAS LADO A LADO)
+   ======================================================== */
+/* Contentor pai flexivel */
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Agrupamento de seletores: propriedades comuns a todas as colunas */
+.coluna1, .coluna2, .coluna3 {
+    margin: 1%;
+    flex-grow: 1;
+}
+
+/* ========================================================
+   ESTILOS EXCLUSIVOS VIA IDs (#)
+   ======================================================== */
+/* Destaque individual para a secao Filmes e Series */
+#secao-filmes {
+    background-color: #3b1d24;
+}
+
+#secao-filmes h2 {
+    background-color: #e50914;
+}
+
+/* Destaque individual para a secao Musica e Podcasts */
+#secao-musica {
+    background-color: #1a3323;
+}
+
+#secao-musica h2 {
+    background-color: #1db954;
+}
+
+/* Destaque individual para a secao Games e Tecnologia */
+#secao-games {
+    background-color: #1e2838;
+}
+
+#secao-games h2 {
+    background-color: #00adee;
+}
+
+/* ========================================================
+   ELEMENTOS DE CONTEUDO E SELETORES
+   ======================================================== */
+/* Titulos base de cada coluna */
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Formatacao padrao de texto de paragrafo */
+p {
+    font-size: 0.9em;
+    color: white;
+    margin: 1.5%;
+}
+
+/* Limitacao de largura e altura padronizada para as imagens */
+img {
+    width: 90%;
+    height: 140px;
+    margin: 1.5%;
+}
+
+/* Classe para padronizar fontes e legendas das imagens */
+.fonte {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+/* ========================================================
+   PSEUDOCLASSES DE LINKS
+   ======================================================== */
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
